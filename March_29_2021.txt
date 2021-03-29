@@ -1,0 +1,16 @@
+I was having quite a bit of trouble making sense of how git and GitHub worked together. 
+I knew how git worked (able to work my way around it, at least) and how valuable a tool version control can be.
+But how did it communicate with GitHub? I tried several courses on linkedIn and the GitHub Learning Lab but it didn't quite click for me.
+Until today.
+I stumbled across this great YouTube channel called "The Coding Train" and dove into a series about git and GitHub.
+The videos weren't as refined as others, and the host frequently made errors and made jokes at his expense. But in the end, that's what made it work for me.
+He communicated the concepts very well, and the visuals were a huge help for me.
+Now I know how to properly use "git clone", "git push" and "git pull", in addition to initializing a local repository and pushing it up to GitHub.
+
+My hope is that this journal will allow me to use my git skills frequently and give me a platform to pose problems I've encountered and allow me to revisit and ammend posts at a later date.
+That's all for now. Time to resume my JavaScript course on FreeCodeCamp.
+
+- Jeremy
+
+
+
