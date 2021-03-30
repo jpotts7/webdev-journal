@@ -1,0 +1,21 @@
+Today I worked through a ton of exercises on FreeCodeCamp that dealt with Regex in JavaScript.
+I find that when I get on a roll like this, it's easy for me to gloss over the content and not give it a chance to truly sink in.
+To help with this, when I successfully finished a challenge, I instantly tried to duplicate it on my code editor with a live port set up so I could see my tweaks and results in real time.
+This has been a recent discovery in my learning, but has already cemented a lot of concepts for me. I used this to play around with object creation. 
+
+Today I covered:
+
+> The .test() and .match() methods.
+> Using "g" flags to find more than just the first match.
+> Using "i" flags to find matches regardless to case.
+> Using the "." as a wildcard.
+> Match ranges of letters and numbers using brackets (eg. [a-e] and [1-7].
+> Match characters that occur one or more times, like the 'S' in "Mississippi" using /s+/.
+> Exlude certain characters using the ' ^ ' symbol.
+> Use ' * ' to match characters that occur 0 or more times (eg. Using /go*/ on "GOOOAL" would return "GOOO" and on "geese" it would return just "g".
+> Finally, I just finished learning about using " ? " to create lazy matching, but I'm feeling a little overloaded with information at the moment and that concept hasn't really sunk in yet.
+
+Lots of good progress today - I'll continue to experiment as much as I can on my code editor in the meantime.
+If I have a little more energy tonight I'll continue to work on my CSS violin and my other HTML projects on Codepen.
+
+- Jeremy
