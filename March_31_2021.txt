@@ -1,0 +1,33 @@
+Today I'm continuing with my Regex tutorial in FreeCodeCamp. Before I even dove in, I did practiced on a random string in my code editor and a lot of the concepts stuck. :)
+
+I'll keep a running tab of the concepts I covered today: 
+  > Use the "$" after the expression to search for an item at the end of a string, using the test method. (eg. let test = myRegex.test(myString)).
+  > The "\w" character is used as a shorthand for all alpha-numeric characters (A-Z, 0-9, and underscore). Use /\w+/ to find words, and single "w" for characters.
+  > Use "\W" to find everything BUT alphanumeric characters (works just like the '^').
+  > Use "\d" as a short hand to search for all digits (0-9).
+  > Use "\D" to find everything BUT digits (again, works just like the '^').
+  
+  ** DON'T FORGET TO USE THE 'gi' FLAGS TO INCLUDE CAPITALIZATION AND REPEATED ITEMS. **
+  
+  Just before I broke for lunch, I solved this tricky problem using Regex. Here were the parameters: 
+  
+    1) Usernames can only use alpha-numeric characters.
+
+    2) The only numbers in the username have to be at the end. There can be zero or more of them at the end. Username cannot start with the number.
+
+    3) Username letters can be lowercase and uppercase.
+
+    4) Usernames have to be at least two characters long. A two-character username can only use alphabet letters as characters.
+    
+    I got close, and ulitmately had to use a few hints. Here was the solution:
+    
+      /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i
+      
+      - So it has to start with two letters at least (the " ^ " followed by two complete alphabet expressions), the plus sign meaning it will allow duplicate letters to follow.
+      - then, if this is the case, you're allowed to follow up with any digit (\d) or none at all if you please (hence the *) but ONLY at the end ($). 
+      - This full combination of expressions ensure that it's at least two characters long. 
+      - The vertical line " | " indicates an "or" expression, so the other option is:
+      - Start with a letter, followed by a number and then another number at the end. 
+      
+    This covered all of their examples. It was a challenging one for me to wrap my head around so I think I'll tinker with it a bit and call it for now.
+      
