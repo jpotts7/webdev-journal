@@ -36,4 +36,7 @@ I'll keep a running tab of the concepts I covered today:
     > "\s" matches all whitespace in a string.
     > Similarly, "\S" matches everything BUT whitespace.
     > Specify quantities using {} with a lower and upper limit number. This is more specific than using "+" or "*". 
+    > Use a " ? " to indicate that the character that precedes it is optional (eg. Color and Colou?r).
+    > Positive callbacks are notated with (?=...) and check to see if the following exists. Negative check that the opposite is true (?!...).
+    > Use () to check for mixed characters (eg. (franklin | teddy | eleanor) Rosevelt.)
       
