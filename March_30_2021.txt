@@ -15,6 +15,8 @@ Today I covered:
 > Use ' * ' to match characters that occur 0 or more times (eg. Using /go*/ on "GOOOAL" would return "GOOO" and on "geese" it would return just "g".
 > Finally, I just finished learning about using " ? " to create lazy matching, but I'm feeling a little overloaded with information at the moment and that concept hasn't really sunk in yet.
 
+Later on that evening I had a little bit of energy left, so I watched a youtube series about node.js and npm. It was by the same guy who did the GitHub series that I enjoyed and this also really cleared some things up for me. Node.js is simply a program that allows you to run javascript outside of the web browser. You can run it directly in the command line and, more importantly, server side!
+
 Lots of good progress today - I'll continue to experiment as much as I can on my code editor in the meantime.
 If I have a little more energy tonight I'll continue to work on my CSS violin and my other HTML projects on Codepen.
 
