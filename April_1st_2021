@@ -17,3 +17,13 @@ The next chapter deals with making and altering data types, such as objects and 
 > Splicing strings --> arr.splice(index to start at, number of items to cut, itmes to be inserted).
 > Slicing strings --> copies items from an array without altering the original, like SPLICE does. --> arr.slice(index to start at, index to end at(but not included)).
 > Spread Operater (new to ES6) --> make an exact copy of an array by using "...arr".
+
+I just completed a problem that asked me to make a function that looped over a nested array and only removed those nested arrays that didn't have the particular element:
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].indexOf(elem) == -1) {
+      newArr.push(arr[i]);
+    }
+  }
+  
+  By using the indexOf() method, it saved me from using a double "for" loop, which started getting messy.
