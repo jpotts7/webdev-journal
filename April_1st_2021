@@ -10,3 +10,10 @@ Just to keep things consistent (and for my own reference), I'll continue to take
 
 Everything else was pretty self explanatory. Watch your index numbers, capitalizations, misspellings, infinite loops and variable scopes. Another chapter completed!
 Time to break for lunch.
+
+The next chapter deals with making and altering data types, such as objects and arrays. I've done this before, but the review is helpful. Here's what I've covered so far:
+
+> Adding/removing elements of an array using pop(), push(), unshift(), and shift().
+> Splicing strings --> arr.splice(index to start at, number of items to cut, itmes to be inserted).
+> Slicing strings --> copies items from an array without altering the original, like SPLICE does. --> arr.slice(index to start at, index to end at(but not included)).
+> Spread Operater (new to ES6) --> make an exact copy of an array by using "...arr".
