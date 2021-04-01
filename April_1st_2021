@@ -1,1 +1,12 @@
+Started today by completing the Regex chapter in my FreeCodeCamp tutorial. Always a good feeling!
+I think I've got a pretty solid grasp on the different characters thanks to additional practice in my code editor. I'll make sure I revisit this over the weekend, to make sure nothing slips through the cracks.
 
+The next chapter deals with debugging techniques. This will be a nice break from terms and expressions.
+Just to keep things consistent (and for my own reference), I'll continue to take notes here on new expressions I've learned:
+
+> console.clear() ---> clears the console log.
+> console.log(typeof ___) ---> checks the type of the variable and prints it in the console log (string, number, symbol, boolean, null, undefined, object).
+> "Falsy" values --> "0, null, undefined, "", NAN, false"
+
+Everything else was pretty self explanatory. Watch your index numbers, capitalizations, misspellings, infinite loops and variable scopes. Another chapter completed!
+Time to break for lunch.
