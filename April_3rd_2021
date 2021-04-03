@@ -1,0 +1,5 @@
+I took yesterday off for a much needed break. I'll continue a bit today, but I don't think I'll go too in depth. 
+Continuing with array and object methods from two days ago, here is a summary of what I've covered today:
+
+> Object.keys() ---> take all keys from the object in the brackets and return an array of those keys.
+>
