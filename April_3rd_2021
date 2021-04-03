@@ -2,4 +2,26 @@ I took yesterday off for a much needed break. I'll continue a bit today, but I d
 Continuing with array and object methods from two days ago, here is a summary of what I've covered today:
 
 > Object.keys() ---> take all keys from the object in the brackets and return an array of those keys.
->
+
+Feeling pretty confident in my ability to create, alter and deal with arrays and objects. It helped that this wasn't my first run-through thanks to the course I took on LinkedIn. Same information + new context = reinforced mental connections.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I'll continue the tutorial for now - the next chapter is an introduction to basic algorithm scripting. We'll see how this goes:
+
+Challenge #1: create a function that takes a string and reverses it.
+  > I was successful! Here is my answer. I'm sure there is a simpler way of doing it with less code, but for now I'm just happy that I got the answer:
+    function reverseString(str) {
+  let arr = str.split('');
+  let reverseArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    reverseArr.unshift(arr[i]);
+  }
+  let finalString = reverseArr.join('');
+  return finalString;
+}
+
+reverseString("hebedawee");
+
+
+
