@@ -35,4 +35,4 @@ function repeatStringNumTimes(str, num) {
 repeatStringNumTimes("abc", 3); (This returns "abc" three times in a row).
 
 I was proud of myself for using a while loop AND remembering to subtract the num value by one afterwards so I didn't get an infinite loop...
-The str.slice method was absolutely unecessary - I could have just as well written "repeatedString += str". I didn't even think of that until just now, but I guess I had the slice method still fresh in my mind from the previous challenge.
+The str.slice method was absolutely unecessary - I could have just as well written "repeatedString += str". I didn't even think of that until just now, but I guess I had the slice method still fresh in my mind from the previous challenge!
