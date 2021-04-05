@@ -1,1 +1,18 @@
+After a morning practice session (and one violin student) I was happy to spend the rest of the afternoon continuing with JavaScript tutorials.
+To break this up a bit more, I watched a youtube video that discussed a recommended "learning roadmap" for front end development.
+I have several sources that I reference in regards to this (really helpful as I am entirely self taught) and I'm happy to report that I seem to be following a good path. I haven't been getting distracted as much in terms of my learning these days - even just a few weeks ago I found myself jumping from project to project and concept to concept, trying to cover all my bases. What can I say? It's exciting to be learning this and I'm eager to get up and running as soon as I can! That said, if being a professional musician has taught me anything in life it's that quality cannot be rushed.
 
+Anyways. Continuing with the JavaScript algorithm projects:
+
+** Check if a string (first argument, str) ends with the given target string (second argument, target). **
+
+function confirmEnding(str, target) {
+  let newArr = str.slice(-(target.length));
+  let answer = newArr == target ? true : false;
+  return answer;
+}
+
+confirmEnding("Bastian", "n");
+
+I still really enjoy seeing how others solve the problem, but my method was mentioned as one of four usual approaches so that was nice!
+I had to do a little review on the differences between "split" (for strings), "slice" (for strings and arrays), and "splice"(for arrays only, and alters the original array). I also decided to write my "if/else" statements with the shorthand method to switch things up.
