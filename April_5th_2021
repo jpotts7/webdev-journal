@@ -16,3 +16,23 @@ confirmEnding("Bastian", "n");
 
 I still really enjoy seeing how others solve the problem, but my method was mentioned as one of four usual approaches so that was nice!
 I had to do a little review on the differences between "split" (for strings), "slice" (for strings and arrays), and "splice"(for arrays only, and alters the original array). I also decided to write my "if/else" statements with the shorthand method to switch things up.
+
+The next problem look really simple at first, but it took me a little while to figure out:
+
+** Repeat a given string str (first argument) for num times (second argument). Return an empty string if num is not a positive number. **
+
+Of course this would have been a piece of cake if I were allowed to use the string.repeat() method.... here was my solution:
+
+function repeatStringNumTimes(str, num) {
+  let repeatedString = "";
+    while (num > 0) {
+      repeatedString += str.slice(0);
+      num--;
+    }
+  return repeatedString;
+}
+
+repeatStringNumTimes("abc", 3); (This returns "abc" three times in a row).
+
+I was proud of myself for using a while loop AND remembering to subtract the num value by one afterwards so I didn't get an infinite loop...
+The str.slice method was absolutely unecessary - I could have just as well written "repeatedString += str". I didn't even think of that until just now, but I guess I had the slice method still fresh in my mind from the previous challenge.
