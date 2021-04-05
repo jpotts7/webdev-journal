@@ -8,3 +8,29 @@ I won't do much tonight, but I figured I'd work my way through a few more algori
 
 My solution: 
 
+function findLongestWordLength(str) {
+  const arr = str.split(" ");
+  const numArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    numArr.push(arr[i].length);
+  }
+  numArr.sort((a,b) => a - b);
+  return numArr.pop();
+};
+
+
+findLongestWordLength("The quick brown fox jumped over the lazy dog"); (This function returns the answer '6').
+
+I'm feeling proud that I'm able to dive into these problems knowing I have an adequate toolbox to work with now. Again, my answers may not be the most concise, but It's the result that matters, right? There will always be a way to further refine code and that will just be something that becomes more intuitive the more experience I get.
+
+I checked the other solutions afterward to see what people came up with and the simplicity of this one is something I'd love to aim for at some point:
+
+function findLongestWordLength(str) {
+  return Math.max(...str.split(" ").map(word => word.length));
+}
+
+Everything in one line! I can't decide if the chained methods make it easier to read or not. Either way, arrow funcions are definitely something I want to make more use of in my code moving forwards.
+
+I think that's all I can handle for tonight. Happy Easter!
+
+- Jeremy
