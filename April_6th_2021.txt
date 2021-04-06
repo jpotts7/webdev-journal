@@ -74,6 +74,10 @@ titleCase("I'm a little tea pot");
 
 Here, by using the map method, you can apply a function that takes each item in the array (val) and replace the first character of it with an uppercase character. There's a lot of punctuation to remember, but this is a method I would like to use at some point again in the near future.
 
+Time to prepare to teach. I ran into a bit of a roadblock today doing these last two challenges, but I'm sure if I step away for a bit and come back to it I'll see it with a fresh perspective.
+
+- Jeremy
+
 
 
 
