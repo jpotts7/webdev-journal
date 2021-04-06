@@ -15,4 +15,20 @@ function truncateString(str, num) {
   }
 }
 
-I tried using the shorthand notation for the if/else statement, but I couldn't get it to work - it kept returning "undefined". Perhaps I'll keep that method for simpler statements for now. 
+I tried using the shorthand notation for the if/else statement, but I couldn't get it to work - it kept returning "undefined". Perhaps I'll keep that method for simpler statements for now. (** After further reading, it was because I didn't include "return" BEFORE the shorthand statement.**)
+
+Challenge #2:
+
+** Look through an array and return the first element that passes the truth test **
+
+My solution:
+
+function findElement(arr, func) {
+  for (let i = 0; i < arr.length; i++) {
+    if (func(arr[i]) === true) {
+      return arr[i];  
+    }
+}
+}
+
+This one confused me at first because I thought it was a function that divided, and not one that found the remainder. It was pretty easy after that.
