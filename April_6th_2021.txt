@@ -1,1 +1,18 @@
 I'm feeling really optimistic and proud of myself for the progress I've been making. At this rate, I feel like I have a good chance of finishing the JavaScript tutorial (with projects), AND completing the Front-End Frameworks on FreeCodeCamp, which covers React and Sass, among other extremely useful programs. Once that's out of the way, I think I'll be confident enough to apply for some entry level work in July!
+
+First algorithm challenge of the day:
+
+** Truncate a String if it is longer than the given number argument and add "..." **
+
+Here is my solution:
+
+function truncateString(str, num) {
+  let shortString = ""
+  if (str.length > num) {
+    return shortString += str.slice(0, num) + "...";
+  } else {
+    return str;
+  }
+}
+
+I tried using the shorthand notation for the if/else statement, but I couldn't get it to work - it kept returning "undefined". Perhaps I'll keep that method for simpler statements for now. 
