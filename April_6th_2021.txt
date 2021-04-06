@@ -60,6 +60,20 @@ console.log(titleCase("HERE IS MY HANDLE"));
 
 All of their solutions used the replace method, which is something I'm not quite familiar with. They also used regex which is slowly becoming less familiar to me as well. Time to do a little review.
 
+This is the answer I liked:
+
+function titleCase(str) {
+  var convertToArray = str.toLowerCase().split(" ");
+  var result = convertToArray.map(function(val) {
+    return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+  });
+  return result.join(" ");
+}
+
+titleCase("I'm a little tea pot");
+
+Here, by using the map method, you can apply a function that takes each item in the array (val) and replace the first character of it with an uppercase character. There's a lot of punctuation to remember, but this is a method I would like to use at some point again in the near future.
+
 
 
 
