@@ -30,6 +30,24 @@ bouncer([7, "ate", "", false, 9]);
 
 All falsey values evaluate to false, so if you filter by Boolean, it will keep all "true" results and reject all "false" results.
 
+After lunch I completed one more challenge before I had to head to an online rehearsal:
+
+** Find the smallest index a number can be inserted in an array and return that index **
+
+Solution:
+
+function getIndexToIns(arr, num) {
+  arr.sort((a,b) => a - b);
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] >= num) {
+      return i;
+    }
+  }
+}
+
+console.log(getIndexToIns([5, 3, 20, 3], 5));
+
+This worked, but FreeCodeCamp didn't like it because I didn't include a "return arr.length" line afterwards. This makes sense looking back, because if the number didn't apply to the given array, then you should just return the length of the original array. Whatever, it wasn't very clear.
 
 
 
