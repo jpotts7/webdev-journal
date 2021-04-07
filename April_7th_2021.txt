@@ -49,5 +49,29 @@ console.log(getIndexToIns([5, 3, 20, 3], 5));
 
 This worked, but FreeCodeCamp didn't like it because I didn't include a "return arr.length" line afterwards. This makes sense looking back, because if the number didn't apply to the given array, then you should just return the length of the original array. Whatever, it wasn't very clear.
 
+Almost done - this was the second to last challenge:
+
+
+** Check to see that every letter in a second string is present in a first string **
+
+I thought I had to do regex on this one, so I was kinda stumped. This was the answer:
+
+function mutation(arr) {
+  let test = arr[1].toLowerCase();
+  let target = arr[0].toLowerCase();
+  for (let i = 0; i < test.length; i++) {
+    if (target.indexOf(test[i]) < 0) return false;
+  }
+  return true;
+}
+
+The .indexOf method is not one I've used a lot but after looking at this for a while it made sense to me. If a character isn't in the string, the method returns -1. Knowing that, if you simply loop through character by character and everything is greater than 0, you're good to go!
+
+
+
+
+
+
+
 
 
