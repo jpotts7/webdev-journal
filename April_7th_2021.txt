@@ -1,0 +1,15 @@
+I'm hoping that today I finally finish these algorithm challenges involving strings and arrays. Started off on a good note today by completing this challenge:
+
+** Insert an array into another array at a given point **
+
+Solution:
+
+function frankenSplice(arr1, arr2, n) {
+  let slicedArr2 = arr2.slice();
+  slicedArr2.splice(n, 0, ...arr1);
+  return slicedArr2;
+} 
+
+console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1)); (This returned [4, 1, 2, 3, 5, 6].
+
+I was approaching this problem the correct way by using the spread operator, but it wasn't returning the anticipated result in my console log. It didn't like that I was trying to return the second line of this code - I'm not sure why that's the case sometimes and not others... anyways, I added a separate return line (line 3) and it worked!
