@@ -169,7 +169,23 @@ Dog.prototype = Object.create(Animal.prototype);
 
 ** When a child inherits from a super type (or parent), the object created from the child prototype will inherit the constructor for BOTH. You can set this by using:
 
-Dog.prototype.constructor = Dog; 
+Dog.prototype.constructor = Dog;
+
+>> USING MIXINS 
+
+Mixins are useful ways to add behaviours to objects that have common behaviour but are different (like flying is to ducks and planes). In this case, we don't want to inherit all the behaviour - just an aspect of it:
+
+First, create a 'mixin' variable which is a function that takes any object as an argument and creates the class:
+
+let glideMixin = function(obj) {
+  obj.glide = function() {
+    return "Yes, we can glide!";
+  }
+};
+
+Then you can simply call this function on any object to add the behaviour:
+
+glideMixin(duck); 
 
 
 
