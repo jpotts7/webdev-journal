@@ -1,0 +1,7 @@
+Today I'm starting the next chapter of my JS tutorial which will be focusing on Object-Oriented Programming. The first few exercises are mostly review:
+
+> Creating objects
+> Accessing properties of objects using dot notation.
+> *** CREATING OBJECT METHODS ***
+
+This last exercise sewed up a cognitive gap for me. I knew that methods were functions that could be applied to arrays, objects and strings, but I didn't realize that they were functions that were stored as an object PROPERTY in the object itself. This way, you can create whatever function you want in an object to be used later on that object.
