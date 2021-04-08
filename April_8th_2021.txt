@@ -9,3 +9,15 @@ This last exercise sewed up a cognitive gap for me. I knew that methods were fun
 >"this" keyword 
 
 This was a bit of a grey area for me, but it's purpose is much clearer now. You can call on an object's properties using "this" in place of the object's name. This creates more flexible code, should you rename the object later on.
+
+> Constructor functions
+
+Constructor functions differ in a few ways from standard functions. The name of the function is capitalized, and there is no return value. Each property uses the "this" keyword and is assigned a value ending in a semi-colon.
+Here is an example for future reference:
+
+function Dog() {
+  this.name = "Buddy";
+  this.color = "Brindle";
+  this.numLegs = 4;
+}
+
