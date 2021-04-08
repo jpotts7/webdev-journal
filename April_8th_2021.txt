@@ -134,6 +134,35 @@ The "king" of all objects is "Object". This is why you can access all object met
 
 Often times, we'll have two different prototype objects with the same property. To keep things clean and more efficient, create a SUPERTYPE prototype that includes that, so you don't have to repeat yourself.
 
+> Inherit Behaviours from a Supertype
+
+So, we've created a supertype and want to inherit those properties. Here's one way to do it:
+
+function Animal() { }
+Animal.prototype.eat = function() {
+  console.log("nom nom nom");
+};
+
+let animal = new Animal();
+
+However, apparently this can be problematic? That may be a topic for me to revisit later on. I'm willing to be that it may not work if the name of the super type changes...
+
+Anyways, here's the better option:
+
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+let duck = Object.create(Animal.prototype); 
+let beagle = Object.create(Animal.prototype); 
+
+Instead, we can use the "create" method accessible through the master "Object". This let's us use the prototype directly.  
+
 
 
 
