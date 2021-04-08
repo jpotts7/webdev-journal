@@ -21,3 +21,18 @@ function Dog() {
   this.numLegs = 4;
 }
 
+> Creating new objects using the constructor
+
+Define a new variable and assign it the name of the constructor with the "new" keyword. This is important, because it allows this new object to gain all the properties defined in the constructor.
+
+let hound = new Dog();
+
+
+
+
+
+
+
+
+
+
