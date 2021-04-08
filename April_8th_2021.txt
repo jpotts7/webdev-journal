@@ -161,7 +161,11 @@ Animal.prototype = {
 let duck = Object.create(Animal.prototype); 
 let beagle = Object.create(Animal.prototype); 
 
-Instead, we can use the "create" method accessible through the master "Object". This let's us use the prototype directly.  
+Instead, we can use the "create" method accessible through the master "Object". This let's us use the prototype directly. 
+
+You can also assign the prototype of the subtype (Animal --> Dog) to be an instance of the super type:
+
+Dog.prototype = Object.create(Animal.prototype); 
 
 
 
