@@ -27,6 +27,18 @@ Define a new variable and assign it the name of the constructor with the "new" k
 
 let hound = new Dog();
 
+> Extend constructors to receive arguments
+
+This is a really cool way to make your constructors more flexible. If you know what properties you will adjust for each new object that's created, include them as arguments in the constructor function itself:
+
+function Dog(name, color) {
+  this.name = name;
+  this.color = color;
+  this.numLegs = 4;
+}
+
+let terrier = new Dog("Archie", "Black");
+
 
 
 
