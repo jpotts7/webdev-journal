@@ -185,7 +185,21 @@ let glideMixin = function(obj) {
 
 Then you can simply call this function on any object to add the behaviour:
 
-glideMixin(duck); 
+glideMixin(duck);
+
+>> Use closure to protect properties in objects
+
+If you want properties to be protected from outside manipulation, you can declare them as a variable instead and then create a method that returns that value separately:
+
+function Bird() {
+  let weight = 15;
+  
+  this.getWeight = function() {
+    return weight;
+  };
+}
+
+Instead of 'this.weight = 15', which would be an easily accessible property, it now becomes a variable (let weight = 15). Then, we write the method below so if we try to find the weight by typing "Bird.weight" it wouldn't work.  
 
 
 
