@@ -125,6 +125,11 @@ These are all blending together a bit for me. So far, we can check to see if a c
 
 ** That last method DOES NOT WORK if you're trying to access a prototype property **
 
+> The Prototype Chain
+
+All objects have prototypes - even the prototypes!
+The "king" of all objects is "Object". This is why you can access all object methods on objects within objects, because they all filter back to Object. This makes sense to me now, but I sure hope it does when I revisit this later!
+
 
 
 
