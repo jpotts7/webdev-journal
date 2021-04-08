@@ -111,7 +111,9 @@ Dog.prototype = {
   }
 };
 
+*** REMEMBER: storing prototype properties as a separate object like this will overwrite the constructor property! Make sure you always manually add that back in:
 
+constructor: Dog,
 
 
 
