@@ -165,7 +165,11 @@ Instead, we can use the "create" method accessible through the master "Object". 
 
 You can also assign the prototype of the subtype (Animal --> Dog) to be an instance of the super type:
 
-Dog.prototype = Object.create(Animal.prototype); 
+Dog.prototype = Object.create(Animal.prototype);
+
+** When a child inherits from a super type (or parent), the object created from the child prototype will inherit the constructor for BOTH. You can set this by using:
+
+Dog.prototype.constructor = Dog; 
 
 
 
