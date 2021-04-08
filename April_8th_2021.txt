@@ -130,6 +130,10 @@ These are all blending together a bit for me. So far, we can check to see if a c
 All objects have prototypes - even the prototypes!
 The "king" of all objects is "Object". This is why you can access all object methods on objects within objects, because they all filter back to Object. This makes sense to me now, but I sure hope it does when I revisit this later!
 
+> Don't Repeat Yourself!
+
+Often times, we'll have two different prototype objects with the same property. To keep things clean and more efficient, create a SUPERTYPE prototype that includes that, so you don't have to repeat yourself.
+
 
 
 
