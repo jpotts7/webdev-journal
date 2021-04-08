@@ -206,6 +206,43 @@ Instead of 'this.weight = 15', which would be an easily accessible property, it 
 You can get anonymous functions to call right away by wrapping the function in parentheses and then adding another pair afterwards. 
 I believe this only works with anonymous functions. It cannot be stored as a variable or have a name.
 
+>>IIFE's to create Modules
+
+And here's the icing on the cake for today. You can use IIFE's to take several mixin functions and group them into one organized module (which is another object with these mixins as properties!) This makes them more easy to access because they're all in one place:
+
+let isCuteMixin = function(obj) {
+  obj.isCute = function() {
+    return true;
+  };
+};
+let singMixin = function(obj) {
+  obj.sing = function() {
+    console.log("Singing to an awesome tune");
+  };
+};
+
+let funModule = (function() {
+  return {
+    isCuteMixin: function(obj) {
+  obj.isCute = function() {
+    return true;
+  };
+},
+    singMixin: function(obj) {
+  obj.sing = function() {
+    console.log("Singing to an awesome tune");
+  };
+}
+  }
+})();
+
+Just be wary of the extra brackets - it can get a little messy.
+ALSO note that you had to change from "let isCuteMixin =" to "isCuteMixin: "
+
+I did it! I finished the entire Object Oriented Programming section in one day! I learned a lot from this and will make sure to revisit these topics first thing tomorrow before I move onto something else.
+
+- Jeremy
+
 
 
 
