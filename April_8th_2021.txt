@@ -199,7 +199,12 @@ function Bird() {
   };
 }
 
-Instead of 'this.weight = 15', which would be an easily accessible property, it now becomes a variable (let weight = 15). Then, we write the method below so if we try to find the weight by typing "Bird.weight" it wouldn't work.  
+Instead of 'this.weight = 15', which would be an easily accessible property, it now becomes a variable (let weight = 15). Then, we write the method below so if we try to find the weight by typing "Bird.weight" it wouldn't work. 
+
+>> Immediately Invoked Function Expressions
+
+You can get anonymous functions to call right away by wrapping the function in parentheses and then adding another pair afterwards. 
+I believe this only works with anonymous functions. It cannot be stored as a variable or have a name.
 
 
 
