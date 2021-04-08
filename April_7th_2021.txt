@@ -67,6 +67,25 @@ function mutation(arr) {
 
 The .indexOf method is not one I've used a lot but after looking at this for a while it made sense to me. If a character isn't in the string, the method returns -1. Knowing that, if you simply loop through character by character and everything is greater than 0, you're good to go!
 
+I did it! I finally finished these algorithm challenges. Here was the final one:
+
+** Split an array into sub arrays of 'x' length **
+
+I spent a lot of time on this one. A lot. I was SO CLOSE, but couldn't get the final number to add as a nested array all by itself. I was using a for loop, but all my code within (splicing the arrays) was correct. I asked for a hint and found that the "while" loop would be much simpler in this case:
+
+function chunkArrayInGroups(arr, size) {
+  let newArr = [];
+  while (arr.length > 0) {
+      newArr.push(arr.splice(0, size));
+    }
+  return newArr;
+  }
+
+It looks so simple afterwards. Sometimes I think I just need to start assuming that not everything has to be fiendishly difficult. 
+
+That's where I'll stop for today - I'll start the next chapter tomorrow - "Object oriented programming". 
+
+- Jeremy
 
 
 
