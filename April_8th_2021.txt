@@ -40,6 +40,19 @@ function Dog(name, color) {
 let terrier = new Dog("Archie", "Black");
 
 
+> Using "instanced" operator 
+
+This operator checks to see if the object was created using the given constructor and returns true or false.
+
+ex. myHouse instanceof House; ** Note that this is NOT written in camel case. **
+
+
+
+
+
+
+
+
 
 
 
