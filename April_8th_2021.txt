@@ -116,6 +116,16 @@ Dog.prototype = {
 constructor: Dog,
 
 
+> Where does an object's prototype come from? 
+
+This can be easily checked using the '.isPrototypeOf' method.
+Ex. Dog.prototype.isPrototypeOf(beagle);
+
+These are all blending together a bit for me. So far, we can check to see if a constructor is the prototype of another object (above), whether or not an instance has a property using "instance.property === Object", and whether or not an instance has it's own property (.hasOwnProperty)
+
+** That last method DOES NOT WORK if you're trying to access a prototype property **
+
+
 
 
 
