@@ -83,6 +83,16 @@ let beagle = new Dog("Snoopy");
 
 We know that all dogs will have four legs (in this case), so we want to automatically include that in every instance we create from then on. 
 
+> The constructor property
+
+Each instance of a constructor will actually have a .constructor property associated with it and can be accessed. A useful way to use it is to check to see if the instance has that property and it will return true or false:
+
+function Dog(name) {
+  this.name = name;
+}
+
+Terrier.constructor === Dog (could return true or false).
+
 
 
 
