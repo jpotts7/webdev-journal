@@ -69,6 +69,20 @@ for (let property in canary) {
 
 So for each property in the object "canary", we're going to add it to the ownProps array.
 
+> Using prototype properties
+
+This technique helps to reduce code by creating properties that will be added to all object instances. Here's an example:
+
+function Dog(name) {
+  this.name = name;
+  Dog.prototype.numLegs = 4;
+}
+
+
+let beagle = new Dog("Snoopy");
+
+We know that all dogs will have four legs (in this case), so we want to automatically include that in every instance we create from then on. 
+
 
 
 
