@@ -93,6 +93,26 @@ function Dog(name) {
 
 Terrier.constructor === Dog (could return true or false).
 
+> Storing multiple prototypes as a separate object
+
+This is a clean and efficient way to store multiple prototype properties, instead of listing each property on a separate line:
+
+function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype = {
+  numLegs: 4,
+  eat: function() {
+    console.log("Kibble");
+  },
+  describe: function() {
+    console.log("Super cute and soft.");
+  }
+};
+
+
+
 
 
 
