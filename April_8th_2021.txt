@@ -47,6 +47,34 @@ This operator checks to see if the object was created using the given constructo
 ex. myHouse instanceof House; ** Note that this is NOT written in camel case. **
 
 
+> Understanding 'own' properties
+
+
+Each object created using the constructor will have its 'own' set of properties. You can access these and list them in an array by using this "for each" loop:
+
+function Bird(name) {
+  this.name = name;
+  this.numLegs = 2;
+}
+
+let canary = new Bird("Tweety");
+let ownProps = [];
+// Only change code below this line
+
+for (let property in canary) {
+  if (canary.hasOwnProperty(property)) {
+    ownProps.push(property);
+  }
+}
+
+So for each property in the object "canary", we're going to add it to the ownProps array.
+
+
+
+
+
+
+
 
 
 
