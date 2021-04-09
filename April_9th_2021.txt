@@ -1,0 +1,11 @@
+I started today by reviewing the concepts I learned yesterday regarding Objects and Object Oriented Programming. There was a lot to unpack there, but I'm feeling pretty comfortable with my grasp on those concepts for now. I'm really glad that I spent the time documenting all those examples and concepts - it will be very useful to be able to revisit these entries later on and review concepts written in my own words (not just Stack Overflow).
+
+Today, I'm starting the second to last chapter in this tutorial about 'Functional Programming'. So far, I've learned the basic terms:
+
+** First Class Functions ---> All functions in javascript are first class functions. This means that they can be passed into arguments, returned within other functions or even be stored as variables.
+
+** Higher Order Functions ----> these are functions that can take other functions as arguments, or are able to return other functions.
+
+** Lambda's ----> These are the functions that can be used as arguments to other functions or returned within other functions. 
+
+ 
