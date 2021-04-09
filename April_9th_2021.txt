@@ -8,4 +8,10 @@ Today, I'm starting the second to last chapter in this tutorial about 'Functiona
 
 ** Lambda's ----> These are the functions that can be used as arguments to other functions or returned within other functions. 
 
+The first challenge is too lengthy to reproduce here in whole, but it required me to look through a bunch of object prototype functions and find where the error was. It ended up being the numbers used in the 'splice' argument (the splice method CUTS OUT from the original array, so if you need to use that original array again afterwards, you have to remember that it looks different. SLICE would maintain the original).
+
+I'm feeling some information overload today, so I think I'll call it quits for now. Happy Friday!
+
+- Jeremy
+
  
