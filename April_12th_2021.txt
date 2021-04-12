@@ -8,3 +8,9 @@ Continuing with functional programming:
 > Always declare your dependencies (as arguments) ---> it's good practice and helps prevent unwanted changes to variables.
 
 > Be careful that your functions do not mutate global variables. 
+
+This chapter is frustrating me a little. It's more about good practice and techniques for handling functions, but the instructions are a little too vague to properly explain the complexities of each exercise.
+
+For example, they introduced the map() and filter() methods and how to use them. It's clear what they do, but they each take three arguments: the current element being processed, the index of that element, and the array upon which it was called. The only examples they give however, only use the first argument for "simplicity sake". Come on. Show me how to use every feature if you're going to introduce a topic.
+
+I think I'll take a step back for a second and experiment with map and filter methods on my own.
