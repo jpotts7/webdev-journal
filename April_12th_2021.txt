@@ -1,0 +1,4 @@
+Back at it after a nice relaxing weekend away from the computer.
+I feel more refreshed and ready to continue chipping away at this final learning chapter before the intermediate algorithm problems are presented and then the final portfolio projects!
+
+Continuing with functional programming:
