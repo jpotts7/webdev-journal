@@ -2,3 +2,9 @@ Back at it after a nice relaxing weekend away from the computer.
 I feel more refreshed and ready to continue chipping away at this final learning chapter before the intermediate algorithm problems are presented and then the final portfolio projects!
 
 Continuing with functional programming:
+
+** Important things to remember **
+
+> Always declare your dependencies (as arguments) ---> it's good practice and helps prevent unwanted changes to variables.
+
+> Be careful that your functions do not mutate global variables. 
