@@ -17,3 +17,35 @@ First, you map through each object in the original array. You can name this what
 Now that I have the data I need, I chained the filter method to it to filter out any ratings that weren't greater than 8. Because it was originally listed as a string, I converted it to a number using the parseFloat method.
 
 A note about arrow functions in ES6 --> you can omit the return keyword if it's a one line return statement (implicit). If it's a BLOCK code, like an object, you need to use the return keyword. Perhaps moving forwards I'll just do that until I gain a better understanding of the circumstances. 
+
+The next challenge had me make my own filter method from scratch using a for loop:
+
+// The global variable
+var s = [23, 65, 98, 5];
+
+Array.prototype.myFilter = function(callback) {
+  // Only change code below this line
+  var newArray = [];
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i]) === true) {
+      newArray.push(this[i]);
+    }
+  }
+  // Only change code above this line
+  return newArray;
+};
+
+var new_s = s.myFilter(function(item) {
+  return item % 2 === 1;
+});
+
+It took me a while to figure out how to use the callback. Basically, the callback is referring to whatever function the filter method will use. So, we loop through each index of the Array (this) and WHATEVER the callback function is, as long as it evaluates to true when we pass this[I] into it, we can push that value to the new array.
+
+
+
+
+
+
+
+
+
