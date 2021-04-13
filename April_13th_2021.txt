@@ -41,6 +41,8 @@ var new_s = s.myFilter(function(item) {
 
 It took me a while to figure out how to use the callback. Basically, the callback is referring to whatever function the filter method will use. So, we loop through each index of the Array (this) and WHATEVER the callback function is, as long as it evaluates to true when we pass this[I] into it, we can push that value to the new array.
 
+Concat, Slice, Filter and Map are all great methods to use because they DO NOT alter the original array - they simply create a new one. SPLICE on the other hand, directly alters the original array.
+
 
 
 
