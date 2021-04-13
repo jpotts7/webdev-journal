@@ -1,0 +1,19 @@
+I'm continuing today with the functional programming chapter of my tutorial. I'm losing a little bit of steam at this point. I've learned so much information that it's difficult to decide how to start a problem, let alone notate it correctly.
+
+This first challenge was to go through an array of movies (objects) and return a new array using the map() and filter() methods if the rating was greater than 8.
+
+var filteredList = watchList.map(movie => {
+  return {
+    title: movie.Title,
+    rating: movie.imdbRating
+  };
+})
+  .filter(movie => {
+    return parseFloat(movie.rating) >= 8.0;
+  });
+
+First, you map through each object in the original array. You can name this whatever you like (movie, in this case), so long as you reference it later on. So, for each movie, I want to return an array with a new object containing its title and rating. I used object deconstructing to obtain these values and rename the rating variable.
+
+Now that I have the data I need, I chained the filter method to it to filter out any ratings that weren't greater than 8. Because it was originally listed as a string, I converted it to a number using the parseFloat method.
+
+A note about arrow functions in ES6 --> you can omit the return keyword if it's a one line return statement (implicit). If it's a BLOCK code, like an object, you need to use the return keyword. Perhaps moving forwards I'll just do that until I gain a better understanding of the circumstances. 
