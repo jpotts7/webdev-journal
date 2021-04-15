@@ -1,0 +1,9 @@
+I got some unexpected coding practice done last night that I didn't get a chance to reflect on - it's been a weird and difficult few days and I just haven't had the emotional or mental capacity to learn at the moment.
+
+That said, I had a few wins yesterday:
+
+> Successfully solved problems using map(), filter(), some() and each() methods
+> Learned more about how the sort() functions works and how you can alter the parameters to give ascending or descending results.
+
+I have one final lesson in this chapter to cover and then I'm off to try some more intermediate algorithm and function problems!
+
