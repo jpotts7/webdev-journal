@@ -7,3 +7,6 @@ That said, I had a few wins yesterday:
 
 I have one final lesson in this chapter to cover and then I'm off to try some more intermediate algorithm and function problems!
 
+** Currying functions **
+
+This was just an introduction to a process that I will have to research more on another day. Basically, this means you write functions that only have an arity of 1 (one argument). This is helpful if you can't supply all the arguments at one time.
