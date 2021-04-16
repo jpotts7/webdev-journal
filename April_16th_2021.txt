@@ -65,7 +65,11 @@ $(".classname:nth-child(#ofelement)");
 
 I think I'll throw in the towel for today - this is super inspiring! Finally learning about all these frameworks and libraries that everyone talks about is really piecing the puzzle together for me. 
 
-- Jeremy
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Alright, so I have a bit of a second wind here - I think it's time to cover a bit of how the Sass preprocessor works!
+
+1) Sass uses variables! These are declared with a '$'.
 
 
 
