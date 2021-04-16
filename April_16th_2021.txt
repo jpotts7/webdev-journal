@@ -61,6 +61,12 @@ $("element in quotes").addClass("classes to be added in quotes");
 ** Change a particular element using "nth-child" selector like this:
 $(".classname:nth-child(#ofelement)");
 
+** Use :odd or :even selectors to select the odd or even elements with that given class **
+
+I think I'll throw in the towel for today - this is super inspiring! Finally learning about all these frameworks and libraries that everyone talks about is really piecing the puzzle together for me. 
+
+- Jeremy
+
 
 
 
