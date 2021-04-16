@@ -26,6 +26,15 @@ A brief summary of what I've learned so far:
 
 Bootstrap divides the display in to a 12-column grid. You can easily place items in row with each other by using this class "col-size-number". Give each element it's own div and include this class. For example, each button can have "col-xs-4" which means they take up four columns on an extra-small screen.
 
+10) Use the "span" element to select certain words to modify with bootstrap.
+
+
+
+
+
+
+
+
 
 
 
