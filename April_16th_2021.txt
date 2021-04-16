@@ -40,7 +40,9 @@ Important points I've learned today:
 
 1) Have a "document ready" function inside the script tags at the beginning of your html. This will make sure that whatever is inside the function will only run AFTER the html has been rendered.
 
+** You can use jQuery to select elements or attributes in your html and add new classes to them that reference the animate.css library **
 
+$("element in quotes").addClass("classes to be added in quotes");
 
 
 
