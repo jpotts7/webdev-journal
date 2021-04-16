@@ -32,6 +32,7 @@ Bootstrap divides the display in to a 12-column grid. You can easily place items
 
 12) You can use a class "well" in Bootstrap to give depth to elements.
 
+Wow, that was much easier than I thought! I'm sure there much more too it, but it felt so good to do something other than JavaScript and have a better idea into how people use Bootstrap to make responsive web-pages. What a great tool!
 
 
 
