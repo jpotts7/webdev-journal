@@ -11,3 +11,5 @@ A brief summary of what I've learned so far:
 3) To make images responsive, add a class called "imp-responsive" :D
 
 4) Center text by adding the class "text-center" to whatever element you choose.
+
+5) Use bootstrap buttons by making a button element and using the classes "btn" and "btn-default"
