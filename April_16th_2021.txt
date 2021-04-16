@@ -75,6 +75,10 @@ Alright, so I have a bit of a second wind here - I think it's time to cover a bi
 
 3) Use @mixin to declare css that can be reused throughout the stylesheet. They look like a function (with parameters) and when you want to call on it you use the @include keyword.
 
+4) You can use logic with your mixins to make them more flexible -> just like javaScript, we can use @if @else or @else if statements (using the @ symbol and curly braces).
+
+
+
 
 
 
