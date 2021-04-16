@@ -71,6 +71,10 @@ Alright, so I have a bit of a second wind here - I think it's time to cover a bi
 
 1) Sass uses variables! These are declared with a '$'.
 
+2) You can nest child elements within parent elements to keep things easier to read and in blocks of code.
+
+3) Use @mixin to declare css that can be reused throughout the stylesheet. They look like a function (with parameters) and when you want to call on it you use the @include keyword.
+
 
 
 
