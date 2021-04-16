@@ -13,3 +13,7 @@ A brief summary of what I've learned so far:
 4) Center text by adding the class "text-center" to whatever element you choose.
 
 5) Use bootstrap buttons by making a button element and using the classes "btn" and "btn-default"
+
+6) Use "btn-block" class to create a button that spans a whole block, not just the length of the text. 
+
+7) Use "ban-primary" in place of "bin-default" to give your button the primary color of your page.
