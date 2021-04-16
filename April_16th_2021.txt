@@ -9,3 +9,5 @@ A brief summary of what I've learned so far:
 2) Wrap ALL of the html in a div with a class "container-fluid" - I'm not sure if this is a bootstrap specific class or if this is just how FreeCodeCamp wanted me to do it. 
 
 3) To make images responsive, add a class called "imp-responsive" :D
+
+4) Center text by adding the class "text-center" to whatever element you choose.
