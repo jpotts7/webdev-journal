@@ -22,6 +22,10 @@ A brief summary of what I've learned so far:
 
 9) "Btn-danger" is a red colour - good for delete buttons or buttons with other "dangerous" consequences.
 
+*** The Bootstrap Grid ***
+
+Bootstrap divides the display in to a 12-column grid. You can easily place items in row with each other by using this class "col-size-number". Give each element it's own div and include this class. For example, each button can have "col-xs-4" which means they take up four columns on an extra-small screen.
+
 
 
 
