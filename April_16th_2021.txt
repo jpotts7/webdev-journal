@@ -17,3 +17,17 @@ A brief summary of what I've learned so far:
 6) Use "btn-block" class to create a button that spans a whole block, not just the length of the text. 
 
 7) Use "ban-primary" in place of "bin-default" to give your button the primary color of your page.
+
+8) Bootstrap has some pre-defined colours for things. You can use a "btn-info" class to access an info button color.
+
+
+
+
+
+
+
+
+
+
+
+
