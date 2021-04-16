@@ -52,7 +52,11 @@ $("element in quotes").addClass("classes to be added in quotes");
 
 ** You can remove html elements entirely by selecting their attributes (ex. $("#id").remove();
 
-** You can move elements by appending them to other divs (ex. $("#element-to-move).appendTo("where-to-put-it");
+** You can move elements by appending them to other divs (ex. $("#element-to-move).appendTo("where-to-put-it"); **
+
+** You can copy elements using clone(); **
+
+** You can change the property of parent elements using .parent() and then chaining whatever you want to that, like css(); **
 
 
 
