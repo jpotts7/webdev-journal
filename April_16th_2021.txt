@@ -46,6 +46,8 @@ $("element in quotes").addClass("classes to be added in quotes");
 
 ** You can use jQuery to target elements by type ("button", "h2"); class (".btn") and id ("#target"). **
 
+** You can change css directly using jQuery as well! Use the .css() method but instead of writing it in typical css fashion (ex. Color: red;) you use quotes and commas ("color, "red);
+
 
 
 
