@@ -52,6 +52,8 @@ $("element in quotes").addClass("classes to be added in quotes");
 
 ** You can remove html elements entirely by selecting their attributes (ex. $("#id").remove();
 
+** You can move elements by appending them to other divs (ex. $("#element-to-move).appendTo("where-to-put-it");
+
 
 
 
