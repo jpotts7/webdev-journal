@@ -38,7 +38,7 @@ Now it's time to dive a little deeper in to jQuery - this has been something I'v
 
 Important points I've learned today:
 
-1) Have a "document ready" function inside the script tags at the beginning of your html. This will make sure that whatever is inside the function will only run AFTER the html has been rendered.
+** Have a "document ready" function inside the script tags at the beginning of your html. This will make sure that whatever is inside the function will only run AFTER the html has been rendered. **
 
 ** You can use jQuery to select elements or attributes in your html and add new classes to them that reference the animate.css library **
 
@@ -46,7 +46,11 @@ $("element in quotes").addClass("classes to be added in quotes");
 
 ** You can use jQuery to target elements by type ("button", "h2"); class (".btn") and id ("#target"). **
 
-** You can change css directly using jQuery as well! Use the .css() method but instead of writing it in typical css fashion (ex. Color: red;) you use quotes and commas ("color, "red);
+** You can change css directly using jQuery as well! Use the .css() method but instead of writing it in typical css fashion (ex. Color: red;) you use quotes and commas ("color, "red); **
+
+** Use the prop() method to change element properties directly. For example, you can remove a button element like this: $("button").prop("disabled", true); **
+
+
 
 
 
