@@ -20,6 +20,8 @@ A brief summary of what I've learned so far:
 
 8) Bootstrap has some pre-defined colours for things. You can use a "btn-info" class to access an info button color.
 
+9) "Btn-danger" is a red colour - good for delete buttons or buttons with other "dangerous" consequences.
+
 
 
 
