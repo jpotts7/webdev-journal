@@ -28,12 +28,7 @@ Bootstrap divides the display in to a 12-column grid. You can easily place items
 
 10) Use the "span" element to select certain words to modify with bootstrap.
 
-
-
-
-
-
-
+11) There's a great font and icon library called "Font Awesome" that you can link to in your header. You can then add these icons to anything you want using an <I> tag or a <span> tag. Class receives the attributes "fas" and "fa-iconName".
 
 
 
