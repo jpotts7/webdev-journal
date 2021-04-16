@@ -44,6 +44,8 @@ Important points I've learned today:
 
 $("element in quotes").addClass("classes to be added in quotes");
 
+** You can use jQuery to target elements by type ("button", "h2"); class (".btn") and id ("#target"). **
+
 
 
 
