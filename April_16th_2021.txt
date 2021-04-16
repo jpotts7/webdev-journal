@@ -1,0 +1,11 @@
+I'm getting a little stuck with the JavaScript intermediate problems at the moment. I think the best thing for me right now to keep my motivation up and give me a fresh perspective is to step away for a bit and dive into the front-end frameworks tutorial for a bit. I could spend an eternity on JavaScript but right now I feel like I have a solid enough foundation (practically speaking) and will continue to research, learn and revisit these problems over the course of the next few weeks.
+
+The first chapter deals with Bootstrap - I've heard a lot about this program and I'm looking forward to learning about it's practical uses!
+
+A brief summary of what I've learned so far:
+
+1) Include a link to bootstrap in the head. (It's a long url - you can find it online).
+
+2) Wrap ALL of the html in a div with a class "container-fluid" - I'm not sure if this is a bootstrap specific class or if this is just how FreeCodeCamp wanted me to do it. 
+
+3) To make images responsive, add a class called "imp-responsive" :D
