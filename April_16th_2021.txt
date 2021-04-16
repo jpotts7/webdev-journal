@@ -58,6 +58,9 @@ $("element in quotes").addClass("classes to be added in quotes");
 
 ** You can change the property of parent elements using .parent() and then chaining whatever you want to that, like css(); **
 
+** Change a particular element using "nth-child" selector like this:
+$(".classname:nth-child(#ofelement)");
+
 
 
 
