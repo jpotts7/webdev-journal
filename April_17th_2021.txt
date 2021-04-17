@@ -140,6 +140,11 @@ Render () {
 <headshot />
 }
 
+You can render components to the DOM using the same method as with JSX:
+
+ReactDOM.render(<component />, where to place it);
+(Ex. ReactDOM.render(<Fruits />, document.getElementById("fruit-list");
+
 
 
 
