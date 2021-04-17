@@ -49,6 +49,30 @@ Partials are saved in files that start with an underscore (ex."_mixins.scss). To
 
 No underscore or file extension needed. Now you can access all the css in that file!
 
+The final topic covered in SASS is the "extend" feature. This allows you to copy css code from one element into another. This again saves on repetition and keeps your code drier:
+
+ .info{
+    width: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+
+  .info-important {
+    @extend .info;
+    background-color: magenta;
+  }
+
+Here, the info-important class uses '@extend' to obtain all the code from ".info", and then adds it's own features on top of that.
+
+I'm excited to begin using SASS on my own project now and see how it can tidy up my code!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
 
 
 
