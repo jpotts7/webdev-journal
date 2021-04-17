@@ -84,6 +84,7 @@ A few things that I know for certain:
 
 ** ReactDOM.render(JSX, document.getElementById('root')) **
 
+JSX can only render ONE element at a time. This is important to remember. If you have more than one element, they will have to be children of a parent element in order to transpile.
 
 
 
