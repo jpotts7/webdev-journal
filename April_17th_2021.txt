@@ -88,6 +88,33 @@ JSX can only render ONE element at a time. This is important to remember. If you
 
 To add comments in JSX, you write them the same as you would a multi-line comment in JS only this time you wrap them in curley braces as well. Any pure JS has to be wrapped in {} when using it in JSX! (Ex. {/* Comment */}
 
+You can render React elements (JSX) directly to the DOM through the React API, ReactDOM.
+You do this by calling the render function after the component has been declared:
+
+ReactDOM.render(componentToRender, targetNode);
+
+There are some differences between JSX and HTML. For one, you cannot use the word "class" as an attribute in JSX - this word has a different use in JS.
+You use "className" instead (in CamelCase):
+
+<h1 className="title"></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
