@@ -86,6 +86,8 @@ A few things that I know for certain:
 
 JSX can only render ONE element at a time. This is important to remember. If you have more than one element, they will have to be children of a parent element in order to transpile.
 
+To add comments in JSX, you write them the same as you would a multi-line comment in JS only this time you wrap them in curley braces as well. Any pure JS has to be wrapped in {} when using it in JSX! (Ex. {/* Comment */}
+
 
 
 
