@@ -108,9 +108,28 @@ If there is content within a tag, such as a div, this won't work. Use the standa
 
 ***** REACT COMPONENTS ******
 
-Components are the heart and soul of React and there are two ways to make them. The first way is to use a simple JS function - this is called a "stateless functional component" - this component cannot track or manage changes in the data, but can only take in data and render it. 
+Components are the heart and soul of React and there are two ways to make them: 
+
+The first way is to use a simple JS function - this is called a "stateless functional component" - this component cannot track or manage changes in the data, but can only take in data and render it. 
 
 IMPORTANT NOTE: JSX function names have to start with a capital letter (not camelCase, as is the case in normal JS). 
+
+The second way is to use the ES6 class syntax, like so:
+
+class Kitten extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <h1>Hi</h1>
+    );
+  }
+}
+
+This object will inherit all the capabilities of React.Component, using both "props" for the constructor and the super (parent). Then, you have the render function afterwards.
+
 
 
 
