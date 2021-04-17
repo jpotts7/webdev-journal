@@ -68,6 +68,23 @@ I'm excited to begin using SASS on my own project now and see how it can tidy up
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Here we go. The tutorial I've been the most eager to start.
+
+REACT.
+
+I've tried doing a LinkedIn course on React over a month ago but for some reason I couldn't even get the files they provided to work past the first exercise. I found reading and trying the tutorials on React's website to be unhelpful as well. I'm sincerely hoping that FreeCodeCamp can lay this out for me in a way that I can fully understand.
+
+A few things that I know for certain:
+
+1) React is a JS library built by Facebook. 
+
+2) React uses JSX, which is a JS + HTML combo. The most popular compiler for translating JSX into JS is BABEL.
+
+3) React uses a 'virtual DOM' that it enacts by calling this code:
+
+** ReactDOM.render(JSX, document.getElementById('root')) **
+
+
 
 
 
