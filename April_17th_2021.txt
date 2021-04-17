@@ -98,7 +98,13 @@ You use "className" instead (in CamelCase):
 
 <h1 className="title"></h1>
 
+** ANY tag in JSX can we written as a self closing tag and must be closed, like such:
 
+<div />
+<br />
+<hr />
+
+If there is content within a tag, such as a div, this won't work. Use the standard <div></div>.
 
 
 
