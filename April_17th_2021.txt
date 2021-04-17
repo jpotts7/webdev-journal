@@ -1,0 +1,14 @@
+It's a cold, rainy Saturday and I'm looking forward to really diving in and seeing how much of this front end framework tutorial I can work through today.
+
+I'm picking up where I left off yesterday with Sass.
+
+** You can use 'for' loop logic in Sass and you have two options: a 'through' (includes the last item) and a 'to' (not the last item). Here's how it looks in practice:
+
+@for $i from 1 to 6 {
+  .text-#{$i} {font-size: 15px * $i;}
+}
+
+This will print out the text with the class "text-n" in increasing sizes. 
+The #{} syntax lets Sass know to convert it to a string in the real css file:
+
+.text-#{$I} == .text-1, .text-2, etc.
