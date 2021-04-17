@@ -130,6 +130,18 @@ class Kitten extends React.Component {
 
 This object will inherit all the capabilities of React.Component, using both "props" for the constructor and the super (parent). Then, you have the render function afterwards.
 
+We can "compose" multiple React components together. We do this by creating a parent --> child relationship with the components.
+
+For example, if we have "violinist", "bio" and "headshot" components we can group them together under another component called "Musician" and render the components as their own HTML tags:
+
+Render () {
+<violinist />
+<bio />
+<headshot />
+}
+
+
+
 
 
 
