@@ -41,6 +41,24 @@ $x: 1;
 
 This will loop through five items with the 'text-number' class and alter the font size accordingly. I got stuck for a second because I used the '=' as the assignment operator (like you do in JavaScript) but because this is css, I had to use a ':'. Finally, remember to place the semi-colon INSIDE the curly braces (again, like in css, not JS).
 
+You can make files called "partials" in SASS. These are simply small SASS files that hold particular groups of css (mixins, colours, fonts, etc) that can be IMPORTED into the main SCSS file. This keeps your code modular and more organized.
+
+Partials are saved in files that start with an underscore (ex."_mixins.scss). To import this to the main file, simply say:
+
+@import 'mixins'
+
+No underscore or file extension needed. Now you can access all the css in that file!
+
+
+
+
+
+
+
+
+
+
+
 
 
 
