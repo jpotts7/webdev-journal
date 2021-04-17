@@ -12,3 +12,25 @@ This will print out the text with the class "text-n" in increasing sizes.
 The #{} syntax lets Sass know to convert it to a string in the real css file:
 
 .text-#{$I} == .text-1, .text-2, etc.
+
+Ok, now things are getting a little abstract. The next exercise is covering how you can use "each" on lists, assigning a variable to the current value from that list item.
+
+Ex. @each $color in blue, black, red {
+  .#{$color}-bg {background-color: $color};
+}
+
+The colours to be changed are listed at the top, then you map that variable to each "color-bg" class. You can achieve the same result using mapping over key:value pairs:
+
+$colors: (color1: blue, color2: red, color3: green);
+
+@each $key, $color in $colors {
+  .#{$color}-text {color: $color;}
+}
+
+Here, you define a "colours" object variable, and then map over each key in that object using "@each $key" (which is a "color" in the object "colours").
+
+I think this is clear and that I'm explaining it correctly. I believe I understand each concept, it's just a matter of knowing WHEN to use them. Context is everything, and I guess that will just come with practice. I should spend some time today reading other people's sass code.
+
+
+
+
