@@ -5,3 +5,5 @@ Continuing with React "props".
 "Props" is the standard argument supplied to stateless functional components that are the children of parent components. Props is also it's own object, and you can define whatever object key you want to it and later refer and assign a value to it when composing it within a parent component. At least that's my understanding of it?
 
 Here's the last example I did. I had a CurrentDate functional component where I defined "props.date". When I included this component later in the Calendar component, I passed in a date value of the date Object (date={Date()}). This had to be in curly braces because it's JS notation. 
+
+To add arrays as props, make sure you use curly braces when assigning the values because you're writing pure JS. In the child component, you can also use array methods like ".join()" to change how the values will be rendered.
