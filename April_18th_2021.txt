@@ -1,0 +1,7 @@
+On this beautiful Sunday afternoon I am giving myself a little bit of time while my wife works to continue with my React tutorial. I learned a lot yesterday and spent the first half hour or so reviewing my notes and re-reading material on React's website. I can already tell that while general concepts will stick with me, actually writing out JSX and React components will be really difficult if I don't get the practice in. Will I need to install it on my computer through NPM? After that, what other steps do I need to take to properly use React? I'm not quite sure yet. I need to look into that later this week so I can actually get some practice via my code editor.
+
+Continuing with React "props".
+
+"Props" is the standard argument supplied to stateless functional components that are the children of parent components. Props is also it's own object, and you can define whatever object key you want to it and later refer and assign a value to it when composing it within a parent component. At least that's my understanding of it?
+
+Here's the last example I did. I had a CurrentDate functional component where I defined "props.date". When I included this component later in the Calendar component, I passed in a date value of the date Object (date={Date()}). This had to be in curly braces because it's JS notation. 
