@@ -31,9 +31,15 @@ Constructor(props) {
 
 There are two ways you can access state:
 
-1) In the render method itself ---> you can create a variable to store the state data you want to access and write it in plain JS.
+A) In the render method itself ---> you can create a variable to store the state data you want to access and write it in plain JS.
 
-2) In the return statement ---> if you do it this way, it has to be written in curly braces as it is part of the JSX
+B) In the return statement ---> if you do it this way, it has to be written in curly braces as it is part of the JSX.
+
+4) You can add methods to your components BUT in order for them to access all the props in the component, you have to bind 'this' to the method. The first way you can do this is in the constructor function this way:
+
+this.handleClick = this.handleClick.bind(this);
+
+I definitely need to do a little review on the 'this' keyword, but I have a decent understanding of how this works.
 
 
 
