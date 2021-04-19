@@ -29,6 +29,14 @@ Constructor(props) {
 
 *** IMPORTANT NOTE: A component's state is encapsulated within that component. No other components are aware of it (this may take me a while to see the implications of this...) ****
 
+There are two ways you can access state:
+
+1) In the render method itself ---> you can create a variable to store the state data you want to access and write it in plain JS.
+
+2) In the return statement ---> if you do it this way, it has to be written in curly braces as it is part of the JSX
+
+
+
 
 
 
