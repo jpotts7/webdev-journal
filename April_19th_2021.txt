@@ -13,4 +13,6 @@ Items.propTypes = { quantity: PropTypes.number.isRequired }
 
 Here, my item component should expect a prop that is a number (this can be bool, string, array, etc).
 
+2) Declaring props in ES6 class components:
 
+Declaring props in ES6 class components uses slightly different syntax. Here, we need the "this" keyword to refer back to the class itself (ex. This.props.something).
