@@ -1,2 +1,16 @@
 I'm continuing to take a mental break from practicing - violin has been and always will be an integral part of my life, and I have to be very wary about burnout and "pushing through", especially during Covid. There's no point in forcing it when there are no performances on the horizon. Perhaps, if I have the energy, I will try and do a half hour or so of technique today, to keep the rust from forming. As of right now though, I really want to spend a lot of time studying React and continuing with the tutorial.
 
+
+1) Declaring "Prop Types":
+
+It's important to check that the type of data that the prop is receiving is what you expect it to be. You can define the propTypes property with this format:
+
+Component.propTypes = {prop: PropTypes.type.isRequired}
+
+A practical example is this:
+
+Items.propTypes = { quantity: PropTypes.number.isRequired }
+
+Here, my item component should expect a prop that is a number (this can be bool, string, array, etc).
+
+
