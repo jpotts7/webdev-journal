@@ -41,6 +41,13 @@ this.handleClick = this.handleClick.bind(this);
 
 I definitely need to do a little review on the 'this' keyword, but I have a decent understanding of how this works.
 
+Whew, this is starting to get a little overwhelming. I realized that there are a few gaps in my knowledge that are making this more difficult for me to comprehend. I'm not really comfortable with event handlers in general, how they work, or even how API's or other javaScript libraries REALLY work, like jQuery. I took a pause on this and did some more reading on the Mozilla Developer page about all of the above and it was extremely beneficial. I will spend more time on here following their examples so I can help stitch all these topics together in my mind.  
+
+
+
+
+
+
 
 
 
