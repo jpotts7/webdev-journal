@@ -27,6 +27,8 @@ Constructor(props) {
 	this.state = {};
 }
 
+*** IMPORTANT NOTE: A component's state is encapsulated within that component. No other components are aware of it (this may take me a while to see the implications of this...) ****
+
 
 
 
