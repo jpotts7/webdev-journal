@@ -16,3 +16,21 @@ Here, my item component should expect a prop that is a number (this can be bool,
 2) Declaring props in ES6 class components:
 
 Declaring props in ES6 class components uses slightly different syntax. Here, we need the "this" keyword to refer back to the class itself (ex. This.props.something).
+
+
+3) Declaring States
+
+A React component can have 'state', which is any information that can be changed over time in the application or website. State is declared as an object in the constructor function of the class component with the keyword 'this':
+
+Constructor(props) {
+	super(props)
+	this.state = {};
+}
+
+
+
+
+
+
+
+
