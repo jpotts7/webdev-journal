@@ -1,0 +1,5 @@
+It's been a while since I last wrote an entry. I started feeling a little burnt out by all the JavaScript challenges and felt like I was spinning my wheels and not accomplishing much so I gave it a rest. 
+
+In the time since my last entry however, I've made huge strides in my learning. I finally completed my portfolio page, hosted it on Netlify and added some projects to it - I'm proud of the final result and also proud of myself for actually seeing my projects all the way through to the end.
+
+I completed Wes Bos' "Intro to React" course (which dealt mostly with class components), so I supplemented that with a "React Hooks" course on LinkedIn which I finished yesterday. I'm finally feeling confident enough to tackle my own React project so I think I'll give that a go today after I warm up with a CodeWar exercise and some DOM manipulation practice.
