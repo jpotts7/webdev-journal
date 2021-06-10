@@ -1,0 +1,11 @@
+Today was a milestone for me - I put the finishing touches on my CSS violin and added it as a project on my portfolio page. 
+
+This was a massive project for me and encompassed my entire web dev journey up until this point. Reflecting back, I can't help but feel immense pride in what I've accomplished.
+In February, I didn't even know how to centre a div, what the difference between 'absolute' and 'relative' position was, how to create repeating gradients or even use flex box and grid to my advantage. 
+I hit too many roadblocks along the way to count; I got frustrated; I nearly gave up altogether; but I stuck with it and found a way to finish something that I started and am PROUD of. 
+
+I have a hard time finishing projects. I think that stems from all my years of intense musical training. Are you ever "finished"? No. There's always something to add, remove, or change for the better. As a perfectionist, I always wanted to wait until I knew I could deliver the best product I could. Except this moment never really came, and it never would. 
+
+Web development has made me more comfortable sharing my creations in regards to both tech and music. It's a wonderful feeling and I will do whatever I can to keep the ball rolling!
+
+- Jeremy 
