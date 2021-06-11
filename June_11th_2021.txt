@@ -1,0 +1,10 @@
+Today (or yesterday for that matter) marks a huge milestone for me: I was offered FULL TIME EMPLOYMENT with a small web development company. There are moments in our lives where everything seems to line up perfectly and yesterday was one of those days. I've worked so very hard these past four months. I've had high highs and low lows with lots of mediocrity in between but I kept my goals in sight and never looked back. 
+
+I am beyond excited. I can't wait to get started and soak up everything I can along the way. I know the first few months are going to be a massive learning curve but it will be amazing to have such fantastic mentors to help me when I'm stuck instead of my trusty teachers Google and Stack Overflow (which I will continue to rely upon, heavily). 
+In one month, I'll be turning 32. This will be my first full-time job since I worked at a sporting goods store after high school. The stability and structure will feel incredible and allow me to pursue musical projects that challenge and inspire me the most. A win-win in my opinion.
+
+I'm going to do some work on my React Marathon Pace Calculator, and do some reading on Next.Js but otherwise take it easy and savour this huge win. I think for now though, I'll take some time to customize my VS Code editor in preparation for the heavy coding I have waiting for me in just a few short weeks!
+
+Stay the course, believe in yourself and work as hard as you can - you never know what breaks may come your way.
+
+- Jeremy
