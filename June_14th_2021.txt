@@ -1,0 +1,11 @@
+After spending some time reading the docs about Next.JS (and completing their blog tutorial) I realized that they were using some Node expressions that I wasn't familiar with. I found a decent "Intro to Node" course on LinkedIn that I've been working my way through today and I've come to realize several things:
+
+1) My JavaScript skills have improved immensely. Even though I'm learning new functionalities, the logic all makes sense - hurray!
+
+2) Frequent core modules that I see in code (Require, Fs...) all make sense now. It really wasn't so difficult!
+
+I know that my focus will be on front end for now, but it's time I start dipping my toes in backend code more and more. I feel like it will greatly expand my perspective and improve my javascript overall. 
+
+I'm going to pause on that for now and add my React Pace Calculator to my portfolio page. More after lunch!
+
+- Jeremy
