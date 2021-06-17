@@ -1,0 +1,17 @@
+I had a really productive coding day yesterday. I set a few goals for myself (and posted to Twitter to help keep myself accountable...):
+
+1) Complete my Node.Js course on LinkedIn.
+2) Read a bunch of Next.Js docs.
+3) Practice patience
+
+That last one is obviously not code related, but I have some exciting things on the horizon that I desperately want to share, but I need to keep a lid on it for the time being. However, I feel like today could be the day that the first domino falls and I can stop being so cryptic about everything.
+
+I managed to complete the Node course and really enjoyed it! I think I'll make it a goal to tackle their advanced Node course next week. It really illuminated a bunch of syntax that I found very confusing before and because it's just JavaScript, I was able to learn the concepts quickly and effectively, thanks to all the hard work I've been putting into learning JS over the past few months. It's all starting to come together and it's simply the best feeling. 
+
+I also read a bunch of Next.JS docs as I went through the course and went over some of the more confusing aspects of dynamic routing and passing static props. Again, having done some Node, the logic made much more sense.
+
+To cap it off, I did a quick 1/2 hour course on markdown that Wes Bos had on his site. Super easy concepts that will pay off huge in the coming months.
+
+That reminds me...I need to spice up my read.me pages on my GitHub.
+
+- Jeremy
