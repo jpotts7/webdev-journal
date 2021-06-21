@@ -1,0 +1,42 @@
+Well, it happened: On Friday, I signed my offer letter for my FIRST JUNIOR WEB DEV JOB! My official start date is July 5th, so I'll be keeping it under wraps until then. I can't wait to start this new adventure and can't believe that I accomplished this with just over four months on the self-taught route. 
+
+Now I have over two weeks to really crack down, improve my JavaScript and fill in as many knowledge gaps as I can so I can be as prepared as possible for day 1 on the job.
+
+Today I started and completed a nice little introductory course on REST API's. It's something I've been meaning to get familiar with for a while at this point, and it's important to know how to use these, even though I'm not sure it will be a necessary skill early on in my job. 
+
+I also completed a rather tough problem on CodeWars that I'm rather proud of! It was rated a Kata level 6 (8 being the easiest) and was actually a fairly practical problem that I may encounter someday. It involved taking an array of files and creating a function that returned the filetypes that occurred the most. Here is the complete description:
+
+Given a List/Array of Filenames (strings) files return a List/Array of string(s) contaiining the most common extension(s). If there is a tie, return a sorted list of all extensions.
+
+Important Info:
+Don't forget, you've been working with a lot of different file types, so expect some interesting extensions/file names/lengths in the random tests.
+Filenames and extensions will only contain letters (case sensitive), and numbers.
+If a file has multiple extensions (ie: mysong.mp3.als) only count the the last extension (.als in this case)
+
+And here was my solution, using a variety of array methods, and Object static methods:
+
+
+function solve(files) {
+  const fileExts = files
+    .map(file => file.split("."))
+    .map(file => file[file.length - 1])
+    .map(ext => `.${ext}`)
+    .reduce((acc, ext) => {
+      acc[ext] = acc[ext] + 1 || 1
+      return acc;
+    }, {})
+  const maxNum = Math.max(...Object.values(fileExts));
+  return Object.keys(fileExts)
+      .filter(key => fileExts[key] === maxNum)
+      .sort();
+  }
+
+I'm sure I could have found a way to refactor the beginning so it didn't include so many chained map methods, but I was happy to see that this solution was clearer and more concise when compared to some of the other solutions I saw afterwards.
+
+It's been a good start to the day so far! I think I'll spend some time on GitHub tweaking projects and writing better README files now that I have a better grasp on markdown. The other day I submitted a pull request with actual code (for the first time ever!) which unfortunately got rejected due to the particular code not being useful enough for other users. Fair enough. I did learn a lot in the process, so it was not at all a wasted effort - those contributing guidelines were STRICT!
+
+- Jeremy
+
+
+
+
