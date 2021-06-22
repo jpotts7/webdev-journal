@@ -1,0 +1,6 @@
+I have the luxury of another open morning and afternoon so I'm going to review the list of concepts that my new employer sent over that they wish for me to familiarize myself with before my first day. 
+
+I received this list yesterday and after writing my journal entry for the day, found a course on Figma on LinkedIn and completed it late yesterday afternoon (it was, overall, a very productive day). Figma is insane - how people are able to design a program like that is truly remarkable. I ended up designing a basic phone app for a restaurant and learned all about designing components, pages, shapes, icons, styles, and fonts. This is a tool that I see myself using A LOT in the coming months and I'm glad that I took the initiative to dive in and see how it works. 
+
+Today, after doing some coding challenges, I think I'll spend some time learning keyboard shortcuts for VSCode. I've been putting this off for a while, but learning small details like this are really going to pay dividends in the long run and help make me as efficient a coder as possible. I feel like I've only scratched the surface here and am excited to learn more.
+
