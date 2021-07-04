@@ -1,0 +1,14 @@
+I really haven't done a good job at keeping these entries consistent.
+That said, I HAVE in fact kept a consistent coding and learning regiment over the past two weeks.
+
+I am so excited. I start my new job TOMORROW! I think I'll have a hard time sleeping tonight.
+
+So what have I accomplished in the past week and a half? I found an amazing resource, www.educative.io, which offers probably the best quality tutorials and learning modules I've found. I went through another React Hooks tutorial (can never get enough of those - need to stay up to date with the current trends) and I am on pace to finish (and receive a certificate for) a NEXT.JS course. I was looking for a NEXT-specific course for a while and between the tutorial they offer on their site and this course I feel like I have a solid base to build off of in the coming months. 
+
+Next is so...clean. I love how intuitive everything is from Linking between pages, to setting up headers, to dynamically rendering page paths...I can't wait to see how I apply this knowledge in my new job.
+
+I actually cancelled all my students this week so I can commit fully to having my first week in PST - not only will it be the most beneficial for my onboarding process, I haven't taken a break from teaching in like...a year and a half? It will feel amazing to have that extra headspace. 
+
+Looking forward to sharing my newest employment on LinkedIn and beyond, starting tomorrow morning!
+
+- Jeremy
