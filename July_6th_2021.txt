@@ -8,4 +8,23 @@ I can already tell how much I'm going to learn in the next few weeks, particular
 
 We'll see what kind of feedback I receive. I cleaned up the code quite a bit afterwards and got it to be decently responsive. Next step => push to gitHub!
 
+First code review: done! Here are the key takeaways for me:
+
+1) Use VH units for height and width of the uppermost parent component (because you want to fit that on whatever screen the user has) and then use percentages for children height values - this keeps everything relative to their container.
+
+2) Letter height and letter spacing use EMS, not REMS.
+
+3) Use the 8px grid model when possible. It's ok for REMS to have up to four decimal places - this makes sure the designs don't do partial pixel coverage.
+
+4) Mix-blend-mode is a resource hog. It's better to just download the image with the correct colour to begin with so you don't have to mess with it later. This also ensures that other children elements aren't affected necessarily.
+
+5) Set margin: auto for flex boxes to centre them THEN use padding to bump up the entire flex box. Using margin will mess up the entering.
+
+6) HOWEVER, use margins on individual children to control spacing within flex boxes. Space-between is good for elements that need to be far away from each other and margins are more customizable than  space-around. 
+
+7) NEVER trust the content - be wary of how it affects your design system.
+
+I'll review these some more tomorrow morning. Next up is to make sure that this Hero component is mobile responsive - this will give me more experience using breakpoints and media queries - meaningful work on my birthday!
+
+
 - Jeremy
