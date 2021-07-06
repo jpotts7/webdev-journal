@@ -1,0 +1,11 @@
+Nearing the finish of day two on the new job and I've been loving every minute of it. 
+
+My hard work and attention to detail has paid off big time. Once I got set up on all the day-to-day tech (Slack, Asana, Humi, Harvest...) and spent some time getting familiar I basically hopped right in to coding!
+
+My first project was to replicate a Hero component that was designed on Figma. I used Storybook to get a visual rendering of it and just completed it an hour ago.
+
+I can already tell how much I'm going to learn in the next few weeks, particularly in CSS. I'm having to be much pickier with how I organize my grids and flex box designs and get used to using "rems" as the sizing unit for pretty much everything. I had the most difficulty figuring out how to use flex box to my advantage in centering the layouts but figured out that you can do a flex-direction: column for the main working area to help keep everything aligned. After that, the standard flex-direction: row components slide right in.
+
+We'll see what kind of feedback I receive. I cleaned up the code quite a bit afterwards and got it to be decently responsive. Next step => push to gitHub!
+
+- Jeremy
