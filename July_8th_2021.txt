@@ -1,0 +1,71 @@
+I think I've learned more in the past three days than I would have in an entire month of self learning.
+While my brain feels like it's going to explode I absolutely love the work I'm doing right now and can already see how the struggle will pay off immensely in a few short weeks.
+
+I've spent virtually my whole time replicating a website design given to me on Figma using React components and a whole lot of CSS. I think I finally finished the first main "Hero" component and am awaiting the feedback for my pull request.
+
+In the meantime, some quick reflections:
+
+Styled-components are super cool. I even learned how to use switch statements within them to render the css of OTHER styled components that I imported from different design files.
+
+Recently, I made a typography file that made a styled-component for each type of font style I will encounter. I imported this into a Text component, which renders a "$Text" styled component that draws its info from the passed in typography styles.
+
+I hope I explained that clearly? In any case, here is my code for future reference:
+
+import React from 'react'
+import styled from 'styled-components'
+import {
+  $TextXs,
+  $TextSm,
+  $TextReg,
+  $TextLg,
+  $TextXl,
+  $Text2xl,
+  $Text3xl,
+  $Text4xl,
+  $Text5xl,
+  $Text6xl,
+  $Text7xl,
+  $Text8xl,
+  $Text9xl,
+} from '../Design/typography'
+
+export const $Text = styled.div`
+  ${({ textStyle }) => {
+    switch (textStyle) {
+      case 'xs':
+        return $TextXs
+      case 'sm':
+        return $TextSm
+      case 'base':
+        return $TextReg
+      case 'lg':
+        return $TextLg
+      case 'xl':
+        return $TextXl
+      case '2xl':
+        return $Text2xl
+      case '3xl':
+        return $Text3xl
+      case '4xl':
+        return $Text4xl
+      case '5xl':
+        return $Text5xl
+      case '6xl':
+        return $Text6xl
+      case '7xl':
+        return $Text7xl
+      case '8xl':
+        return $Text8xl
+      case '9xl':
+        return $Text9xl
+    }
+  }}
+`
+
+export default function Text({ children, textStyle = 'xl' }) {
+  return <$Text textStyle={textStyle}>{children}</$Text>
+}
+
+I'm also becoming more and more comfortable using and passing around props and dealing with flex box. Looking forward to whatever comes next!
+
+- Jeremy
