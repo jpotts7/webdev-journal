@@ -1,0 +1,11 @@
+This morning I was able to do a little more refactoring on the Hero component I've been assigned to train on. In addition to breaking each component out into their own files, I've created a typography system from scratch that can be incorporated into my Text component as props. This allows me to access any font I wish throughout the rest of my project. 
+
+I have a little bit of time now that I've pushed that up to be reviewed so I'm taking a little course on educative.io that deals with flex box layouts. I'm only a few chapters in  but I've already had a big "a-ha" moment with the box model layouts.
+
+Border-Box and Content-Box were always a little vague for me in terms of how margin, padding and border was calculated. It is much clearer for me now:
+
+1) Content-Box model is the default, and the width property applies only to the content. If padding and border are specified as well, this ADDS to the overall width of the whole element. 
+
+2) Border-Box includes the padding AND border in the width calculation. This makes positioning an element a little clearer as the margins values are easier to anticipate.
+
+This will take some time to sink in to be able to use this knowledge effectively but I can already tell that this will be a fantastic and thorough course.
