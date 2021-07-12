@@ -1,0 +1,16 @@
+First day of my second week is off to a pretty good start!
+
+I spent the morning and most of the early afternoon working on my second sandbox component: a features component for Kubernetes.
+
+Something things that I found easier this time around were:
+
+1) Navigating their design system and files.
+2) Using Javascript to map over data and create components dynamically (wohoo!!)
+3) Importing/exporting files and components.
+4) Using devtools and storybook to troubleshoot.
+5) Becoming more efficient and using Figma data to replicate designs.
+
+I'm still having trouble knowing when and how to use height and width properties on elements. It should be so basic but I get hung up on max vs min and all the different units that can be used for different circumstances. 
+My control of flex box is improving, though I think I may have over-used it in this particular project. I'm sure that will be a part of my feedback later. 
+
+I made my first PR for this new component so I'll take a break from coding for now and read through some of the docs for Sanity - in a few weeks I will be tasked with using Loom to create video walkthroughs of Sanity for different clients. This will be a great way to dip my toes into the back end side of things!
